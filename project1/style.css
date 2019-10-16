@@ -1,0 +1,155 @@
+body{
+background-image: url("dark-wood.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.dv{
+  /*background-color:grey;*/
+  width:75%;
+  height:100%;
+  /*margin:10% auto;*/
+  border-radius:2%;
+  box-shadow:0px 11px 35px 2px;
+  box-shadow:10%;
+  width: 940px;
+  margin-bottom: -1px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+}
+figure{
+  margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 20px;
+  border: 2px solid #eeeeee;
+
+
+}
+figcaption{
+    font-family: Georgia, Times, serif;
+    font-size: 17px;
+    color:grey;
+}
+nav{
+  padding: 0px;
+  margin-top: -4px;
+}
+ul {
+  list-style-type: none;
+  margin-top: 0px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Georgia, Times, serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: lightgrey;
+}
+.active{
+  color:black;
+}
+h2
+{
+  margin: 10px 0px 5px 0px;
+    padding: 0px;
+    font-weight: normal;
+    font-family: Georgia, Times, serif;
+
+}
+h3{
+  margin: 0px 0px 10px 0px;
+    color: #F0808F;
+    font-family: Georgia, Times, serif;
+}
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+section{
+
+    display: table-cell;
+    border-right: 1px solid #eeeeee;
+    width:75%;
+}
+section figure{
+  float: left;
+}
+.ls{
+  padding-left: 17px;
+}
+.hr{
+  color:grey;
+}
+.fin{
+  background-color: lightgrey;
+  font-family: Georgia, Times, serif;
+  height:30px;
+  color:white;
+  font-size: 17px;
+}
+.pr{
+  color:#de6581;
+  font-family: Georgia, Times, serif;
+}
+
+
+.pr a{
+  text-decoration: none;
+  color:#de6581;
+  display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+    font-family: Georgia, Times, serif;
+}
+.ct h2{
+  color:#de6581;
+  font-family: Georgia, Times, serif;
+
+}
+p{
+  font-family: Georgia, Times, serif;
+  font-size: 17px;
+  color:grey;
+}
+ .ls a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.ls a:hover {
+  color: #985d6a;
+  background-color: #efefef;
+}
+ footer {
+  clear: both;
+  color: #ffffff;
+  background-color: #aeaca8;
+  height: 30px;
+  font-family: Georgia, Times, serif;
+
+  font-size: 17px;
+  padding: 7px 0px 0px 20px;
+
+}
